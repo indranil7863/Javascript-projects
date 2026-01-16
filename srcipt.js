@@ -2,7 +2,7 @@ const container = document.querySelector('.container')
 
 // container.children[0].style.color = 'red';
 
-
+// image Repo link : https://github.com/PokeAPI/sprites/tree/master
 
 function addNewImg(indx){
     const newContainer = document.createElement('div')
