@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 50%;
+    margin: 45px auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 35px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.btn-section{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.btn-section button{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    transition: background-color 0.6s 0s linear;
+    /* border: 1px solid gold; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-section button:hover{
+    background-color: deeppink;
+    
+}
+
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.input-section input[type="number"]{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.7rem;
+    width: 40%;
+}
+
+.reset-btn{
+    margin: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: burlywood;
+    transition: background-color 0.6s 0s linear;
+}
+.reset-btn:hover{
+    background-color: rgb(218, 162, 89);
+}
