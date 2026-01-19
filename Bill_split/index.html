@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <section class="bill">
+            <h4>Bill</h4>
+            <div class="amount-type">
+                <label for="type-amount">
+                <span>₹</span>
+                <input type="text" inputmode="numeric" pattern="[0-9]*" id="type-amount" >
+                </label>
+            </div>
+            <p class="select-tip">Select Tip</p>
+            <div class="discount-btn">
+                <p class="first-btn">5%</p>
+                <p class="second-btn">10%</p>
+                <p class="third-btn">15%</p>
+                <p class="fourth-btn">25%</p>
+                <p class="fifth-btn">50%</p>
+                <p class="sixth-btn">75%</p>
+            </div>
+            <input id="customer-tip" type="number" placeholder="Custom Tip">
+            <p class="people">Number Of People</p>
+            <input type="text" name="noOfPeople" id="people-count">
+            <button class="bill-button">Generate Bill</button>
+            
+        </section>
+        <section class="result">
+            <div>
+                <p>Tip amount</p>
+                <p class="tip-amount price">₹0.00</p>
+            </div>
+            <div>
+                <p>Total</p>
+                <p class=" total-amount price">₹0.00</p>
+            </div>
+            <div>
+                <p>Each Person Bill</p>
+                <p class="each-bill price">₹0.00</p>
+            </div>
+            <button class="reset-btn">Reset</button>
+        </section>
+    </div>
+</body>
+</html>

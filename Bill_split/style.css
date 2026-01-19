@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 60%;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ /* bill section */
+ .bill{
+    padding: 2px;
+    /* border: 1px solid red; */
+    width: 40%;
+ }
+ .bill h4{
+    padding: 5px 0px;
+    font-weight: 100;
+ }
+ .amount-type{
+    padding: 4px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+ }
+ #type-amount{
+    /* border: 1px solid black; */
+    padding: 3px;
+    outline: none;  
+ }
+ .amount-type span{
+    padding: 0px 6px;
+ }
+ .select-tip{
+    padding: 10px 0px;
+ }
+ .discount-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+ }
+
+ .discount-btn p{
+    width: 70px;
+    background-color: blueviolet;
+    padding: 5px 20px;
+    color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+ }
+ 
+ #customer-tip{
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 8px 4px;
+    outline: none;
+    /* border: 1px solid green; */
+    width: 100%;
+    background: rgba(128, 128, 128, 0.4);
+ }
+ #people-count{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(128, 128, 128, 0.4);
+    /* border: 1px solid gray; */
+ }
+
+ .bill-button{
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #892be265;
+    border-radius: 5px;
+    color: white;
+ }
+
+/* .bill-button:hover{
+    background-color: blueviolet;
+} */
+
+
+ /* result section */
+
+ .result{
+    padding: 3px;
+    /* border: 1px solid greenyellow; */
+    border-radius: 5px;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    background-color: rgba(0, 255, 98, 0.658);
+ }
+ .result div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .result div p{
+    padding: 10px 5px;
+    font-weight: 800;
+    color: black;
+ }
+
+ .result .price{
+    color: rgba(128, 0, 128, 0.98);
+ }
+
+ .reset-btn{
+    width: 90%;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+ }
+.reset-btn:hover{
+    background-color: aqua;
+    
+}
+
