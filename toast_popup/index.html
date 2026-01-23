@@ -9,5 +9,32 @@
 </head>
 <body>
     <h2>Toast Popup</h2>
+    <div class="main-div">
+
+    <select name="position" class="selectOption" id="hr-pos">
+        <option value="">--select options--</option>
+        <option value="left">left</option>
+        <option value="right">right</option>
+    </select>
+     <select name="position" class="selectOption" id="vt-pos">
+        <option value="">--select options--</option>
+        <option value="top">top</option>
+        <option value="bottom">bottom</option>
+    </select>
+    <select name="error-type" class="selectOption" id="err-type">
+        <option value="">--Error type--</option>
+        <option value="warning">warning</option>
+        <option value="Error">Error</option>
+        <option value="success">success</option>
+    </select>
+    <label for="message" class="message-bar">
+        <input type="text" name="" id="message" placeholder="write message..">
+    </label>
+    <label for="duration" class="duration-btn">Duration
+        <input type="range" name="" min="0" max="10" step="1" value="0" id="duration">
+    </label>
+    
+    <button id="generate-toast">show Toast</button>
+</div>
 </body>
 </html>
